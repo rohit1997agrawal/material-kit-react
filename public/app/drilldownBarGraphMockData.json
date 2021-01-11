@@ -1,0 +1,189 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "ICG",
+            "children": [
+                {
+                    "name": "Loans",
+                    "children": [
+                        {
+                            "name": "Commercial and industrial loans",
+                            "size": 39380
+                        },
+                        {
+                            "name": "Financial institutions",
+                            "size": 38120
+                        },
+                        {
+                            "name": "Mortage and real estate",
+                            "size": 67140
+                        },
+                        {
+                            "name": "Installment , revolving credit ",
+                            "size": 7430
+                        },
+                        {
+                            "name": "Lease financing",
+                            "size": 7430
+                        }
+                    ]
+                },
+                {
+                    "name": "Long Term Debt",
+                    "size": 39380
+                },
+                {
+                    "name": "Deposits",
+                    "size": 49380
+                },
+                {
+                    "name": "Secured funding transactions",
+                    "size": 69380
+                },
+                {
+                    "name": "Short Term borrowings",
+                    "size": 19380
+                }
+            ]
+        },
+        {
+            "name": "GCB",
+            "children": [
+                {
+                    "name": "Loans",
+                    "children": [
+                        {
+                            "name": "Commercial and industrial loans",
+                            "size": 69385
+                        },
+                        {
+                            "name": "Financial institutions",
+                            "size": 68125
+                        },
+                        {
+                            "name": "Mortage and real estate",
+                            "size": 87145
+                        },
+                        {
+                            "name": "Installment , revolving credit ",
+                            "size": 9455
+                        },
+                        {
+                            "name": "Lease financing",
+                            "size": 9435
+                        }
+                    ]
+                },
+                {
+                    "name": "Long Term Debt",
+                    "size": 39385
+                },
+                {
+                    "name": "Deposits",
+                    "size": 49385
+                },
+                {
+                    "name": "Secured funding transactions",
+                    "size": 69385
+                },
+                {
+                    "name": "Short Term borrowings",
+                    "size": 19385
+                }
+            ]
+        },
+        {
+            "name": "Regions",
+            "children": [
+                {
+                    "name": "Loans",
+                    "children": [
+                        {
+                            "name": "Commercial and industrial loans",
+                            "size": 51938
+                        },
+                        {
+                            "name": "Financial institutions",
+                            "size": 513812
+                        },
+                        {
+                            "name": "Mortage and real estate",
+                            "size": 156714
+                        },
+                        {
+                            "name": "Installment , revolving credit ",
+                            "size": 15743
+                        },
+                        {
+                            "name": "Lease financing",
+                            "size": 15743
+                        }
+                    ]
+                },
+                {
+                    "name": "Long Term Debt",
+                    "size": 3938
+                },
+                {
+                    "name": "Deposits",
+                    "size": 4938
+                },
+                {
+                    "name": "Secured funding transactions",
+                    "size": 6938
+                },
+                {
+                    "name": "Short Term borrowings",
+                    "size": 1938
+                }
+            ]
+        },
+        {
+            "name": "Enterprise",
+            "children": [
+                {
+                    "name": "Loans",
+                    "children": [
+                        {
+                            "name": "Commercial and industrial loans",
+                            "size": 393800
+                        },
+                        {
+                            "name": "Financial institutions",
+                            "size": 381200
+                        },
+                        {
+                            "name": "Mortage and real estate",
+                            "size": 671400
+                        },
+                        {
+                            "name": "Installment , revolving credit ",
+                            "size": 74300
+                        },
+                        {
+                            "name": "Lease financing",
+                            "size": 74300
+                        }
+                    ]
+                },
+                {
+                    "name": "Long Term Debt",
+                    "size": 393800
+                },
+                {
+                    "name": "Deposits",
+                    "size": 493800
+                },
+                {
+                    "name": "Secured funding transactions",
+                    "size": 693800
+                },
+                {
+                    "name": "Short Term borrowings",
+                    "size": 193800
+                }
+            ]
+        }
+    ]
+}

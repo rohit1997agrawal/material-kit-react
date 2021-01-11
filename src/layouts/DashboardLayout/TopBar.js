@@ -40,8 +40,10 @@ const TopBar = ({
     >
       <Toolbar>
         <RouterLink to="/">
-          <Logo />
+          <Logo /> 
+        
         </RouterLink>
+        <h2>&nbsp;&nbsp;&nbsp;Alco Monitor</h2>
         <Box flexGrow={1} />
         <Hidden mdDown>
           <IconButton color="inherit">

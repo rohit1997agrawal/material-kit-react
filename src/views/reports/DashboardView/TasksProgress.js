@@ -45,13 +45,13 @@ const TasksProgress = ({ className, ...rest }) => {
               gutterBottom
               variant="h6"
             >
-              TASKS PROGRESS
+              NSFR
             </Typography>
             <Typography
               color="textPrimary"
               variant="h3"
             >
-              75.5%
+              1.1
             </Typography>
           </Grid>
           <Grid item>
