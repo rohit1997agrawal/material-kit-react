@@ -112,6 +112,16 @@ const Dashboard = () => {
           >
             <TotalProfit />
           </Grid>
+         
+          <Grid
+            item
+            lg={12}
+            md={12}
+            xl={12}
+            xs={12}
+          >
+            <TrafficByDevice />
+          </Grid>
           <Grid
             item
             lg={12}
@@ -120,15 +130,6 @@ const Dashboard = () => {
             xs={12}
           >
             <Sales />
-          </Grid>
-          <Grid
-            item
-            lg={4}
-            md={6}
-            xl={3}
-            xs={12}
-          >
-            <TrafficByDevice />
           </Grid>
           <Grid
             item

@@ -37,15 +37,15 @@ const items = [
     title: 'Dashboard'
   },
   {
-    href: '/app/customers',
+    href: '/app/quality',
     icon: UsersIcon,
-    title: 'Customers'
+    title: 'Data Quality Analytics Screen'
   },
   {
-    href: '/app/products',
+    href: '/app/example',
     icon: ShoppingBagIcon,
-    title: 'Products'
-  },
+    title: 'Example'
+  },/* ,
   {
     href: '/app/account',
     icon: UserIcon,
@@ -65,12 +65,12 @@ const items = [
     href: '/register',
     icon: UserPlusIcon,
     title: 'Register'
-  },
-  {
+  }, */
+ /*  {
     href: '/404',
     icon: AlertCircleIcon,
     title: 'Error'
-  }
+  } */
 ];
 
 const useStyles = makeStyles(() => ({
@@ -112,12 +112,12 @@ const NavBar = ({ onMobileClose, openMobile }) => {
         flexDirection="column"
         p={2}
       >
-        <Avatar
+      {/*   <Avatar
           className={classes.avatar}
           component={RouterLink}
           src={user.avatar}
           to="/app/account"
-        />
+        /> */}
         <Typography
           className={classes.name}
           color="textPrimary"
@@ -145,40 +145,7 @@ const NavBar = ({ onMobileClose, openMobile }) => {
           ))}
         </List>
       </Box>
-      <Box flexGrow={1} />
-      <Box
-        p={2}
-        m={2}
-        bgcolor="background.dark"
-      >
-        <Typography
-          align="center"
-          gutterBottom
-          variant="h4"
-        >
-          Need more?
-        </Typography>
-        <Typography
-          align="center"
-          variant="body2"
-        >
-          Upgrade to PRO version and access 20 more screens
-        </Typography>
-        <Box
-          display="flex"
-          justifyContent="center"
-          mt={2}
-        >
-          <Button
-            color="primary"
-            component="a"
-            href="https://react-material-kit.devias.io"
-            variant="contained"
-          >
-            See PRO version
-          </Button>
-        </Box>
-      </Box>
+    
     </Box>
   );
 
